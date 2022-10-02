@@ -1,4 +1,3 @@
-import matplotlib.pyplot as plt
 from numpy import random
 from tkinter import *
 import tkinter
