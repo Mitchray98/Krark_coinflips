@@ -1,5 +1,4 @@
 from numpy import random
-from tkinter import *
 import tkinter
 
 
@@ -43,7 +42,7 @@ C1 = tkinter.Checkbutton(text = "Thumb", variable = thum, \
 
 button_1 = tkinter.Button(text = 'Start', width = '10', height = '1', command=lambda: start(thum, int(E1.get())))
 
-l = tkinter.Label(bg='white', width=20, height = 200, text='empty')
+l = tkinter.Label(bg='white', width=20, height = 200, text='')
 
 E1 = tkinter.Entry(bd =5)
 
